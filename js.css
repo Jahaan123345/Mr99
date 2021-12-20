@@ -1,0 +1,30 @@
+.bg-mauve{
+    background-color: #BC8796;
+}
+.logo{
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+.navbar-brand.logo{
+    color: white;
+}
+.navbar-brand.logo:hover{
+    color: white;
+}
+.featureImage{
+    width: 100%;
+    position: relative;
+    height: 400px;
+    background-size: cover;background-position: center;
+}
+.featureImage .text{
+    margin: 0;color: black;position: absolute;top: 50%;left: 50%;width: 80%;
+    color: #000;
+    text-align: center;
+-webkit-transform: translate(-50%,-50%);
+transform: translate(-50%,-50%);
+}
+
+.container{
+    background-color: cadetblue;
+}

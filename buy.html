@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+    <title>Document</title>
+<style>
+    .cta outline{
+        background: none;
+    border: 1px solid #CFE3DC;
+    color: #859D94;
+    font-weight: 400;
+    border-radius: 9px;
+        border: 1px solid grey;
+        height: 30px;
+        width: 93px;
+    }
+    @media screen and (min-width: 768px){
+.cta, a.cta {
+    margin: 20px auto;
+    max-width: 400px;
+}}
+.cta, a.cta{
+font-family: "Roboto", Corbel, Avenir, "Lucida Grande", "Lucida Sans", sans-serif;
+    font-weight: 700;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: #44B78B;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: auto;
+    margin: 30px auto 0;
+    padding: 1em 1.5em;
+    text-align: center;
+    text-decoration: none;}
+a{
+    color: #0C3C26;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: transparent;
+}
+.cta:hover{
+    cursor: pointer;
+}
+
+</style></head>
+<body>
+    <center>
+<div class="col-sm buy">
+    <form method="post" target="blank" action="https://www.paypal.com/chi-bin/webscr">
+        <input type="hidden" value="_cart" name="cmd">
+        <input type="hidden"type="hidden"  value="nathaniabbas@gmail.com" name="business">
+        <input type="hidden" name="upload" value="1">
+       <input type="hidden" name="charsetmm" value="US-ASCII">
+       <input type="hidden" value="1" name="quantity_1">
+       <input type="hidden" value="Books" name="item_name_1">
+       <input type="hidden" value="1.32" name="amount_1">
+       <input type="hidden" value="0" name="shipping_1">
+       <input type="hidden" value="USD" name="currency_code">
+       <input type="hidden" value="PP-BuyNowBF" name="bn">
+       <input type="submit" value="Buy now" class="cta outline">   
+    </form>
+</div>
+</body>
+</html>
+
